@@ -1,0 +1,20 @@
+//TOPIC:  --Pseudo-Element Selector
+
+
+Element ke specific part ko style karta hai.
+
+//HEADING: Syntax: --
+
+selector::pseudo-element {
+  property: value;
+}
+
+Examples:
+
+p::first-letter {
+  font-size: 30px;
+}
+
+p::first-line {
+  color: red;
+}

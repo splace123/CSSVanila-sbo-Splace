@@ -1,0 +1,27 @@
+//TOPIC:  --Selector Priority (Specificity 🔥 Important)
+
+//IMPORTANT: Priority order: --
+
+Inline CSS (1000)
+
+ID (100)
+
+Class (10)
+
+Element (1)
+
+//HEADING: Example: --
+
+#box {
+  color: red;
+}
+
+.box {
+  color: blue;
+}
+
+div {
+  color: green;
+}
+
+ //IMPORTANT: ID sabse strong hoga. --

@@ -1,0 +1,16 @@
+//TOPIC:  -- CSS Comments
+ Comments browser ignore krta hain 
+//HEADING:   --Syntax
+
+/* Ye comment hai */
+//HEADING:  -- Example 
+
+/* Heading style */
+h1 {
+  color: red;
+}
+//INFO: Use: --
+
+Code explain karne ke liye
+
+Debug karne ke liye

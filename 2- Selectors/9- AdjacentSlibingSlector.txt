@@ -1,0 +1,10 @@
+//TOPIC:  --Adjacent Sibling Selector ( + )
+Ek element ke turant baad wala element select karta hai.
+
+//HEADING: Syntax: --
+
+h1 + p {
+  color: red;
+}
+
+Matlab: h1 ke baad jo pehla p hoga wo red hoga.

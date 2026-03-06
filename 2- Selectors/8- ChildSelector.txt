@@ -1,0 +1,11 @@
+//TOPIC:  --Child Selector ( > )
+
+Sirf direct child ko select karta hai.
+
+//HEADING: Syntax: --
+
+div > p {
+  color: blue;
+}
+
+Matlab: Sirf direct child p style hoga.

@@ -1,0 +1,11 @@
+//TOPIC: 1-  --Element Selector
+
+
+//HEADING:  -- Example
+h1 {
+  color: blue;
+}
+
+p {
+  font-size: 18px;
+}

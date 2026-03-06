@@ -1,0 +1,23 @@
+//TOPIC:  --CSS Syntax (Basic Structure)
+CSS ka basic structure hota h :
+
+selector {
+  property: value;
+}
+//IMPORTANT:  --Breakdown above Example:
+selector    ---> kis element ko style krna h 
+property    ---> kya change krna h 
+Value       ---> ktna change krna h 
+
+
+h1 {
+  color: blue;
+  font-size: 30px;
+}
+h1  = selector
+color = property
+blue = value
+font-size = property
+30px = value
+//LITENOTE:  --her property k baad semicolon ; zroor lgta h 
+

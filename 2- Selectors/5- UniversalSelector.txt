@@ -1,0 +1,9 @@
+//TOPIC:  --Universal Selector
+Sab elements ko select karta hai.
+
+//HEADING:  --Syntex
+* {
+  margin: 0;
+  padding: 0;
+}
+//IMPORTANT: Mostly reset CSS ke liye use hota hai. --

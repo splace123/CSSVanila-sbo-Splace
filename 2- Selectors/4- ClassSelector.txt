@@ -1,0 +1,18 @@
+//TOPIC:  --3. Class Selector
+Class multiple elements par use ho sakti hai.
+
+//HEADING:  --Syntex
+
+.classname {
+  property: value;
+}
+//HEADING:  --HTML
+<p class="text">Hello</p>
+<div class="text">Hi</div>
+
+//HEADING:  --CSS:
+.text {
+  color: green;
+}
+
+//IMPORTANT: Class ka sign . hota hai. --

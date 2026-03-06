@@ -1,0 +1,32 @@
+//TOPIC:  --Pseudo-Class Selector
+
+Special states ke liye use hota hai.
+
+//HEADING: Syntax: --
+
+selector:pseudo-class {
+  property: value;
+}
+
+//HEADING: Examples: --
+
+a:hover {
+  color: red;
+}
+
+input:focus {
+  border: 2px solid blue;
+}
+//HEADING: Common pseudo-classes: --
+
+:hover
+
+:active
+
+:focus
+
+:first-child
+
+:last-child
+
+:nth-child()

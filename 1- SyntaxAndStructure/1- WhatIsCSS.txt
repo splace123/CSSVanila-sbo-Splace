@@ -1,0 +1,16 @@
+//TOPIC: -- What is Css? --
+
+CSS = Casecading Style Sheets 
+CSS ka mtlb ho ta h HTML ko design krna 
+HTML structure bnata h, Css styling krta h.
+//HEADING:  -- Example 
+
+//HEADING:  --HTML
+<p>Hello World</p>
+
+//HEADING:  --CSS
+p {
+  color: red;
+}
+Result:
+Text red ho jaye ga .

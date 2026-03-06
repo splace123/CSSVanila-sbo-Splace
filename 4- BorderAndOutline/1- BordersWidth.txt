@@ -1,0 +1,43 @@
+//TOPIC: border-width --
+
+border-width property sets the thickness of border.
+
+//HEADING: It can be written in 4 ways: --
+
+1 value  → all sides same
+2 values → top & bottom | left & right
+3 values → top | left & right | bottom
+4 values → top | right | bottom | left
+
+//IMPORTANT: Order is always: --
+Top → Right → Bottom → Left (Clockwise)
+
+
+
+//HEADING: All Shorthand Cases Clearly --
+
+//HEADING: 1️⃣ One Value --
+border-width: 2px;
+
+✔ All sides = 2px
+
+//HEADING: 2️⃣ Two Values --
+border-width: 2px 4px;
+
+✔ Top & Bottom = 2px
+✔ Left & Right = 4px
+
+//HEADING: 3️⃣ Three Values --
+border-width: 2px 4px 6px;
+
+✔ Top = 2px
+✔ Left & Right = 4px
+✔ Bottom = 6px
+
+//HEADING: 4️⃣ Four Values --
+border-width: 2px 4px 6px 8px;
+
+✔ Top = 2px
+✔ Right = 4px
+✔ Bottom = 6px
+✔ Left = 8px 

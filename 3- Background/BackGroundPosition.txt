@@ -1,0 +1,31 @@
+//TOPIC: CSS Background Position --
+
+
+//HEADING: 1. background-position Property --
+
+Used to set the position of background image.
+
+//HEADING: 2. Single Values --
+
+background-position: top;
+background-position: bottom;
+background-position: left;
+background-position: right;
+background-position: center;
+//HEADING: 3. Two Values --
+
+background-position: top left;
+background-position: center right;
+background-position: bottom center;
+//HEADING: 4. Important Note --
+
+background-position: center;
+
+Same as:
+
+background-position: center center;
+//HEADING: 5. Best Practice Example --
+
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;

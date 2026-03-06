@@ -1,0 +1,19 @@
+//TOPIC:  -- CSS Formatting & Best Practices
+
+Professional way:
+
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: black;
+  font-size: 30px;
+}
+//IMPORTANT:  --Rules
+Proper indentation
+Har property new line me
+ Meaningful file names
+ External CSS use karein
+ Comments add karein

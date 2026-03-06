@@ -1,0 +1,13 @@
+//TOPIC:  -- CSS Case Sensitivity
+
+
+CSS properties case sensitive nahi hoti
+
+Lekin best practice lowercase use karna hai
+
+//HEADING:  --Correct
+ color: red;
+
+//HEADING:  -- Avoid
+
+COLOR: RED;

@@ -1,0 +1,29 @@
+//TOPIC:  --Types Of CSS
+
+
+//HEADING:  --Inline CSS
+Direct HTML tag ke ander lgaty hian :
+
+//IMPORTANT: <p style="color: red;">Hello</p> --
+small testing k liye  use hota h 
+Recommended ni hota code massy ho jata h 
+
+//HEADING:  -- Internal Css
+Html file k <head> section mian likhty hian 
+
+
+<head>
+  <style>
+    p {
+      color: blue;
+    }
+  </style>
+</head>
+small project k liye 
+bray project mian use ni krty 
+//HEADING:  --External Css (Best Method)
+alag se .css file create krtyhian or phr usko  html se link kr dety hian 
+<link rel="stylesheet" href="style.css">
+Professional method
+ Clean code
+ Reusable

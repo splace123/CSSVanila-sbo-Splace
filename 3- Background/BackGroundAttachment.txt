@@ -1,0 +1,14 @@
+//TOPIC: Background Attachment --
+
+
+background-attachment property controls the scrolling behavior of background image.
+
+//HEADING: Values: --
+
+scroll  → image moves with page (default)
+fixed   → image stays fixed on screen
+local   → image scrolls inside element
+inherit → takes value from parent
+
+//HEADING: Syntax: --
+background-attachment: value;

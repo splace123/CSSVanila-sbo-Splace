@@ -1,0 +1,64 @@
+//TOPIC:  -- Topic :  CSS Syntex
+
+//HEADING:  --Basic CSS Syntax
+property: value;
+
+//HEADING: 2. Parts of CSS Declaration --
+Property Name
+
+Colon (:) → Assignment Operator
+
+Value
+
+Semicolon (;) → Statement Terminator
+Example:
+color: red;
+
+//HEADING:  --Assignment Operator
+Colon : property ko value assign karta hai.
+Example:
+background-color: blue;
+//HEADING:  --Statement Terminator
+Semicolon ; statement ko end karta hai.
+
+//HEADING: Single Word Properties --
+
+Example:
+
+color: red;
+margin: 10px;
+
+//HEADING: Multiple Word Properties --
+
+Hyphen - use hota hai.
+
+Example:
+
+background-color: red;
+border-top-left-radius: 20px;
+
+//HEADING: CSS vs JavaScript Writing --
+
+CSS → hyphen-case
+JS → camelCase
+
+Example:
+
+//IMPORTANT: CSS: --
+
+background-color: red;
+//IMPORTANT: JS: --
+
+backgroundColor = "red";
+
+//HEADING: Multiple Values in One Property --
+
+Values space se separate hoti hain.
+
+Example:
+   
+border: 2px solid red;
+
+//LITENOTE: Format: --
+
+property: value1 value2 value3;

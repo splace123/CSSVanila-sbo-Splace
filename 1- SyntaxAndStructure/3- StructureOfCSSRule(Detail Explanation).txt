@@ -1,0 +1,28 @@
+//TOPIC:  --Structure of CSS Rule (Detail Explanation)
+Ek css rule 3 parts main hota h :
+//IMPORTANT:  -- Three rules 
+
+selector {
+   property: value;
+}
+//HEADING:  -- selector
+ Btata h k kis element ko style krna h 
+
+ p { }
+div { }
+h1 { }
+
+//HEADING:  -- Declaration Block
+curly brackets k andar jo bhi likah hota h  wo declaration block hota h 
+
+{
+  color: red;
+  font-size: 20px;
+}
+//HEADING:  --Declaration
+
+//IMPORTANT: her line ko declration kehty hain  --
+for example:
+
+color: red;
+

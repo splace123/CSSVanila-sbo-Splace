@@ -1,0 +1,8 @@
+//TOPIC:  --What is Selector
+Selector batata hai kaunsa HTML element style hoga.
+
+//HEADING:  -- Example
+p {
+  color: red;
+}
+Yahan p selector hai.

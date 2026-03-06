@@ -1,0 +1,16 @@
+//TOPIC:  --ID Selector
+ID unique hoti hai (ek page me sirf ek hi ID hoti hai).
+
+//HEADING:  --Syntex
+#idname {
+  property: value;
+}
+
+//HEADING:  --HTML:
+<p id="intro">Hello</p>
+//HEADING:  --CSS:
+#intro {
+  color: red;
+}
+
+//IMPORTANT: ID ka sign # hota hai. --

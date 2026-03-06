@@ -1,0 +1,16 @@
+//TOPIC: BackGround ShortHand  --
+
+background property is shorthand for all background properties.
+
+//HEADING: It can set: --
+- background-color
+- background-image
+- background-repeat
+- background-position
+- background-size
+- background-attachment
+
+//HEADING: Example: --
+background: red url('image.jpg') no-repeat center center fixed;
+
+It makes code short and clean.

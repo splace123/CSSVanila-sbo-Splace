@@ -1,0 +1,16 @@
+//TOPIC:  --Descendant Selector (Space Selector)
+Parent ke andar jo child ho unko select karta hai.
+
+//HEADING: Syntax: --
+
+div p {
+  color: red;
+}
+
+
+Matlab: div ke andar jo p hoga wo red hoga.
+
+//HEADING:  --Example
+<div>
+   <p>Hello</p>
+</div>

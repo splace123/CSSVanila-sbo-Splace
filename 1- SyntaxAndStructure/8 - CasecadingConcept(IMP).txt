@@ -1,0 +1,46 @@
+CSS me “Cascading” ka matlab hai:
+
+Agar same element par multiple styles lag jayein, to:
+
+Priority order hota hai:
+
+Inline CSS (Highest)
+
+Internal CSS
+
+External CSS
+
+Browser default
+//HEADING:  -- Example:
+<p style="color: red;">Hello</p>
+css file main 
+p {
+  color: blue;
+}
+//IMPORTANT: Result: Red hoga (inline strong hota hai) --
+
+//TOPIC:  --CSS Precedence & Importance
+Precedence
+
+Precedence means which CSS style will be applied first when multiple styles target the same element.
+
+//IMPORTANT: Default Order: --
+Inline CSS > Internal CSS > External CSS
+
+Inline has highest priority.
+//TOPIC:  --!important
+!important overrides the default precedence rule.
+
+//HEADING: Syntax: --
+property: value !important;
+
+Example:
+
+background-color: red !important;
+//TOPIC: If All Use !important --
+
+If inline, internal and external all use !important:
+
+Then normal precedence rule will apply:
+
+Inline > Internal > External

@@ -1,0 +1,10 @@
+//TOPIC:  --Attribute Selector
+Attribute ke basis par select karta hai.
+
+//HEADING: Example: --
+
+input[type="text"] {
+  border: 2px solid red;
+}
+
+✔ Forms me bohat use hota hai

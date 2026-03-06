@@ -1,0 +1,29 @@
+//TOPIC: CSS Background Size --
+//HEADING: 1. background-size Property --
+
+Used to control the size of background image.
+
+//HEADING: 2. Default Value --
+background-size: auto;
+
+Image shows in original size.
+
+//HEADING: 3. Values --
+//HEADING: auto --
+
+Image keeps original size.
+
+//HEADING: cover --
+
+Image covers full container.
+May crop some part.
+
+//HEADING: contain --
+
+Image fully visible.
+May leave empty space.
+
+//HEADING: 4. Common Professional Use --
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;

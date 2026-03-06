@@ -1,0 +1,9 @@
+//TOPIC:  --General Sibling Selector ( ~ )
+
+Ek element ke baad jitne bhi siblings hain unko select karta hai.
+
+Syntax:
+
+h1 ~ p {
+  color: green;
+}

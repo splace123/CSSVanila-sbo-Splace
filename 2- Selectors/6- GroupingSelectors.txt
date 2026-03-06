@@ -1,0 +1,12 @@
+//TOPIC:  --Grouping Selector
+
+Multiple selectors ko ek sath likhte hain.
+
+//HEADING:  --Syntax:
+h1, h2, p {
+  color: blue;
+}
+//IMPORTANT:  --
+Code short ho jata hai
+
+ Repetition kam hoti hai

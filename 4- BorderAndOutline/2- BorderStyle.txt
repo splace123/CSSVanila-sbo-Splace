@@ -1,0 +1,60 @@
+//TOPIC: Border Style --
+(Property: border-style)
+//HEADING: Types of Border Styles --
+
+| Value  | Meaning                       |
+| ------ | ----------------------------- |
+| solid  | Normal simple line            |
+| dashed | Broken line                   |
+| dotted | Dots wali line                |
+| double | Double line                   |
+| groove | 3D groove effect              |
+| ridge  | 3D ridge effect               |
+| inset  | Inside shadow effect          |
+| outset | Outside shadow effect         |
+| none   | No border                     |
+| hidden | Hidden border (mostly tables) |
+
+border-style property sets the type of border line.
+
+//HEADING: Common values: --
+solid, dotted, dashed, double, groove, ridge, inset, outset, none, hidden.
+
+//HEADING: Shorthand rules: --
+
+1 value  → all sides same
+2 values → top & bottom | left & right
+3 values → top | left & right | bottom
+4 values → top | right | bottom | left
+
+//IMPORTANT: Order is always clockwise: --
+Top → Right → Bottom → Left
+
+
+//HEADING: All Shorthand Cases --
+
+//HEADING: 1️⃣ One Value --
+border-style: solid;
+
+✔ All sides = solid
+
+//HEADING: 2️⃣ Two Values --
+border-style: solid dotted;
+
+✔ Top & Bottom = solid
+✔ Left & Right = dotted
+
+//HEADING: 3️⃣ Three Values --
+border-style: solid dotted dashed;
+
+✔ Top = solid
+✔ Left & Right = dotted
+✔ Bottom = dashed
+
+//HEADING: 4️⃣ Four Values --
+border-style: solid dotted dashed double;
+
+✔ Top = solid
+✔ Right = dotted
+✔ Bottom = dashed
+✔ Left = double

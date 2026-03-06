@@ -1,0 +1,45 @@
+//TOPIC: Border Color --
+(Property: border-color)
+
+border-color property sets the color of border.
+
+We can set color for:
+top, right, bottom, left side.
+
+//HEADING: Shorthand rules: --
+
+1 value  → all sides same
+2 values → top & bottom | left & right
+3 values → top | left & right | bottom
+4 values → top | right | bottom | left
+
+//HEADING: Order always: --
+Top → Right → Bottom → Left
+
+
+//HEADING: Shorthand Cases --
+//HEADING: 1️⃣ One Value --
+border-color: red;
+
+✔ All sides = red
+
+//HEADING: 2️⃣ Two Values --
+border-color: red yellow;
+
+✔ Top & Bottom = red
+✔ Left & Right = yellow
+
+//HEADING: 3️⃣ Three Values --
+border-color: red yellow green;
+
+✔ Top = red
+✔ Left & Right = yellow
+✔ Bottom = green
+
+//HEADING: 4️⃣ Four Values --
+border-color: red yellow green blue;
+
+✔ Top = red
+✔ Right = yellow
+✔ Bottom = green
+✔ Left = blue

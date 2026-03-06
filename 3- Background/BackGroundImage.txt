@@ -1,0 +1,27 @@
+//TOPIC: CSS Background Image  --
+
+//HEADING: 1. Background Image Properety  --
+
+used to set an image as background of an element. 
+
+//HEADING: Syntex: --
+background-image: url("image.jpg");
+
+//HEADING: 2. URL  --
+
+URL = Uniform Resource Locator 
+it identified the location of the image. 
+
+//HEADING: Relative Path (Local Image)  --
+
+background-image: url("image.jpg");
+Image in project folder 
+
+//HEADING: 4. Absolute URL (Online Image) --
+background-image: url("https://example.com/image.jpg");
+ Image load from internet 
+
+ //HEADING: 5. Default Behavior  --
+ image repeats automatically 
+ starts form top-left
+ 

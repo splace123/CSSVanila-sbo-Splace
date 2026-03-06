@@ -1,0 +1,34 @@
+//TOPIC: CSS Background Repeat --
+
+//HEADING: 1. background-repeat Property --
+
+Used to control how background image repeats.
+
+//HEADING: 2. Default Value --
+background-repeat: repeat;
+
+Image repeats in both X and Y direction.
+
+//HEADING: 3. Values --
+
+//HEADING: repeat --
+
+Image repeats horizontally and vertically.
+
+//HEADING: no-repeat --
+
+Image shows only once.
+
+//HEADING: repeat-x --
+
+Image repeats only horizontally.
+
+//HEADING: repeat-y --
+
+Image repeats only vertically.
+
+//HEADING: 4. Example --
+body {
+  background-image: url("image.jpg");
+  background-repeat: no-repeat;
+}
