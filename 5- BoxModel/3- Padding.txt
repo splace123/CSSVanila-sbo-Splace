@@ -1,0 +1,26 @@
+Padding is the space inside the border of an element.
+
+It creates space between content and border.
+
+//HEADING: Padding sides: --
+padding-top
+padding-right
+padding-bottom
+padding-left
+
+//HEADING: Shorthand order: --
+Top → Right → Bottom → Left
+
+//HEADING: Examples: --
+
+padding:20px;
+(all sides)
+
+padding:20px 10px;
+(top-bottom | left-right)
+
+padding:20px 10px 5px;
+(top | left-right | bottom)
+
+padding:20px 10px 5px 15px;
+(top | right | bottom | left)

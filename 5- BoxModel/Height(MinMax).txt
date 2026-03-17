@@ -1,0 +1,22 @@
+//TOPIC: Height Property in CSS --
+
+Height sets the vertical size of an element.
+
+//HEADING: Syntax: --
+height:200px;
+
+Min-height sets the minimum height of an element.
+//HEADING: Example: --
+min-height:100px;
+
+Max-height sets the maximum height of an element.
+//HEADING: Example: --
+max-height:500px;
+
+//HEADING: Units: --
+px
+em
+rem
+%
+
+These properties are useful for responsive design.

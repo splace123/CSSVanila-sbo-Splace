@@ -1,0 +1,20 @@
+//TOPIC: Borders And Outline --
+
+border is a shorthand property.
+
+//HEADING: It combines three properties: --
+
+border-width
+border-style
+border-color
+
+//HEADING: Syntax: --
+border: width style color;
+
+//HEADING: Example: --
+border: 2px solid red;
+
+//HEADING: This sets: --
+width = 2px
+style = solid
+color = red 

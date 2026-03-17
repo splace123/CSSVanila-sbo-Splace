@@ -1,0 +1,251 @@
+ //TOPIC: CSS Gradient (Easy Notes) --
+
+ //HEADING: What is Gradient? --
+
+A gradient is used to create a background by mixing two or more colors smoothly.
+
+Instead of a single color background, gradient creates a color transition effect.
+
+//HEADING: Example: --
+
+background: linear-gradient(red, blue);
+
+This creates a smooth transition from red to blue.
+
+ //HEADING: Linear Gradient --
+
+Linear gradient means colors change in a straight line.
+
+//HEADING: Example direction: --
+
+red → blue → yellow
+//HEADING: Basic Syntax --
+
+background: linear-gradient(direction, color1, color2, color3);
+
+//HEADING: Example: --
+
+background: linear-gradient(to right, red, blue);
+
+//HEADING: Meaning: --
+
+Color moves from left to right.
+
+Linear Gradient using Direction
+
+//HEADING: Directions available: --
+
+to top
+to bottom
+to left
+to right
+to top right
+to top left
+to bottom right
+to bottom left
+
+//HEADING: Example: --
+
+background: linear-gradient(to top, red, blue, yellow);
+
+//HEADING: Meaning: --
+
+Colors move from bottom to top.
+
+//HEADING: Linear Gradient using Angle --
+
+Instead of direction we can use angles.
+
+//HEADING: Syntax: --
+
+background: linear-gradient(angle, color1, color2);
+
+//HEADING: Example: --
+
+background: linear-gradient(45deg, red, blue);
+
+//HEADING: Important angles: --
+
+0deg   → bottom to top
+90deg  → left to right
+180deg → top to bottom
+270deg → right to left
+
+//HEADING: Example: --
+
+background: linear-gradient(90deg, red, blue);
+ //HEADING: Color Stops --
+
+Color stops control how much space a color takes.
+
+//HEADING: Syntax: --
+
+background: linear-gradient(direction, color percentage);
+
+//HEADING: Example: --
+
+background: linear-gradient(to right, red 0%, yellow 50%, green 100%);
+
+//HEADING: Meaning: --
+
+red covers 0%
+
+yellow covers 50%
+
+green covers 100%
+
+//IMPORTANT: Important: --
+
+This percentage controls space, not transparency.
+
+ //HEADING: Radial Gradient --
+
+Radial gradient means colors spread in a circular shape.
+
+Example shape:
+
+center → outside
+//HEADING: Basic Syntax --
+background: radial-gradient(shape, color1, color2);
+
+Example:
+
+background: radial-gradient(circle, red, blue);
+
+This creates a circular gradient.
+
+Radial Gradient Shapes
+
+Two shapes are possible:
+
+circle
+ellipse
+
+Example:
+
+background: radial-gradient(ellipse, red, blue);
+
+Ellipse looks oval shape.
+
+ //HEADING: Position of Radial Gradient --
+
+We use at keyword to set the position.
+
+//HEADING: Syntax: --
+
+radial-gradient(circle at position, color1, color2)
+
+Example:
+
+background: radial-gradient(circle at top left, red, blue);
+
+This starts gradient from top left corner.
+
+//HEADING: Radial Gradient Positions --
+center (default)
+top
+bottom
+left
+right
+top left
+top right
+bottom left
+bottom right
+center left
+center right
+
+Example:
+
+background: radial-gradient(circle at bottom right, red, blue);
+ //HEADING: Using Percentage for Position --
+
+We can also control position using X and Y axis.
+
+Example:
+
+background: radial-gradient(circle at 50% 50%, red, blue);
+
+Meaning:
+
+50% horizontal
+
+50% vertical
+
+center position
+
+ //HEADING: Using Pixels for Position --
+
+Example:
+
+background: radial-gradient(circle at 200px 50px, red, blue);
+
+Meaning:
+
+200px from left
+
+50px from top
+
+//HEADING: Units allowed: --
+
+px
+em
+rem
+%
+ //HEADING: Size of Radial Gradient --
+
+Size controls how far the gradient spreads.
+
+Example:
+
+radial-gradient(circle closest-side at top left, red, blue);
+
+//HEADING: Possible sizes: --
+
+closest-side
+closest-corner
+farthest-side
+farthest-corner (default)
+
+Meaning:
+
+closest-side → stops at nearest side
+
+farthest-corner → spreads to far corner
+
+ //HEADING: Transparency in Gradient --
+
+Transparency can be created using rgba().
+
+Example:
+
+background: linear-gradient(
+to bottom,
+rgba(0,0,0,0.7) 0%,
+rgba(0,0,0,0.7) 50%,
+transparent 50%,
+transparent 100%
+);
+
+Meaning:
+
+top area is dark
+
+bottom area becomes transparent
+
+//IMPORTANT: Important: --
+
+rgba → controls transparency of specific color
+opacity → affects whole element
+ //HEADING: Conic Gradient (Basic Idea) --
+
+Conic gradient creates colors around a center point in circular rotation.
+
+Example:
+
+background: conic-gradient(red, yellow, blue);
+
+It looks like a pie chart or color wheel.
+
+Example:
+
+background: conic-gradient(from 0deg, red, yellow, green);

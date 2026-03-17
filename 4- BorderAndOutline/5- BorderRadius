@@ -1,0 +1,47 @@
+//TOPIC: Border Radius --
+
+(Property: border-radius)
+border-radius is used to round the corners of an element.
+
+//HEADING: Individual properties: --
+
+border-top-left-radius
+border-top-right-radius
+border-bottom-right-radius
+border-bottom-left-radius
+
+//HEADING: Shorthand rules: --
+
+1 value → all corners same
+2 values → top corners | bottom corners
+3 values → top-left | top-right & bottom-right | bottom-left
+4 values → top-left | top-right | bottom-right | bottom-left
+
+
+//HEADING: Shorthand Cases --
+
+//HEADING: 1️⃣ One Value --
+border-radius: 10px;
+
+✔ All corners = 10px
+
+//HEADING: 2️⃣ Two Values --
+border-radius: 10px 20px;
+
+✔ Top Left & Top Right = 10px
+✔ Bottom Right & Bottom Left = 20px
+
+//HEADING: 3️⃣ Three Values --
+border-radius: 10px 20px 30px;
+
+✔ Top Left = 10px
+✔ Top Right & Bottom Right = 20px
+✔ Bottom Left = 30px
+
+//HEADING: 4️⃣ Four Values --
+border-radius: 10px 20px 30px 40px;
+
+✔ Top Left = 10px
+✔ Top Right = 20px
+✔ Bottom Right = 30px
+✔ Bottom Left = 40px

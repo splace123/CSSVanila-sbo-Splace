@@ -1,0 +1,189 @@
+
+//TOPIC: CSS Colors --
+
+//HEADING: 1. What are Colors in CSS? --
+
+Colors in CSS are used to style the appearance of elements on a webpage.
+
+//HEADING: We use colors for: --
+
+Text
+
+Background
+
+Borders
+
+Shadows
+
+//HEADING: Example: --
+
+color: red;
+background-color: yellow;
+
+Here:
+
+color changes text color
+
+background-color changes background color
+
+//HEADING: Example: --
+
+<p style="color:red;">This is red text</p>
+2. Ways to Use Colors in CSS
+
+//HEADING: There are four common ways to define colors in CSS: --
+
+Color Names
+
+Hexadecimal Colors
+
+RGB Colors
+
+RGBA Colors
+
+//HEADING: 3. Color Names --
+
+This is the simplest method to apply colors.
+
+CSS already has many built-in color names.
+
+Example:
+
+color: red;
+background-color: blue;
+
+Example HTML:
+
+<p style="color:green;">This is green text</p>
+
+//HEADING: Common color names: --
+
+red
+
+blue
+
+green
+
+yellow
+
+black
+
+white
+
+These are easy to use but not very flexible.
+
+//HEADING: 4. Hexadecimal Colors (Hex Code) --
+
+Hexadecimal colors start with # symbol.
+
+//HEADING: Structure: --
+
+#RRGGBB
+
+Each pair represents Red, Green, and Blue values.
+
+//HEADING: Example: --
+
+color: #ff0000;
+background-color: #00ff00;
+
+//HEADING: Meaning: --
+
+#ff0000 = red
+#00ff00 = green
+Short Hex Code
+
+//IMPORTANT: Sometimes we can write 3 digits instead of 6. --
+
+Example:
+
+#ffffff = #fff
+
+Example CSS:
+
+color: #fff;
+background-color: #456856;
+
+//HEADING: Example HTML: --
+
+<p style="color:#456856;">Hex color example</p>
+//HEADING: 5. RGB Colors --
+
+RGB stands for:
+
+Red
+Green
+Blue
+
+Each value ranges from 0 to 255.
+
+Example:
+
+color: rgb(255,0,0);
+background-color: rgb(94,86,63);
+
+//HEADING: Meaning: --
+
+rgb(255,0,0) = red
+rgb(0,255,0) = green
+rgb(0,0,255) = blue
+
+Example HTML:
+
+<p style="color:rgb(255,0,0);">Red text using RGB</p>
+
+RGB is more flexible than color names.
+
+//HEADING: 6. RGBA Colors --
+
+RGBA is the same as RGB but includes Alpha value.
+
+Alpha controls transparency (opacity).
+
+//HEADING: Structure: --
+
+rgba(red, green, blue, alpha)
+
+Alpha value range:
+
+0 = fully transparent
+1 = fully visible
+
+Example:
+
+color: rgba(0,0,0,0.4);
+background-color: rgba(0,0,0,0.3);
+
+Meaning:
+
+rgba(0,0,0,0.4) = black with 40% transparency
+
+You can also write:
+
+rgba(0,0,0,.3)
+
+which means the same as:
+
+rgba(0,0,0,0.3)
+
+Example HTML:
+
+<p style="color:rgba(0,0,0,0.5);">Transparent black text</p>
+//HEADING: 7. Important Color Examples --
+
+White color:
+
+#ffffff
+#fff
+rgb(255,255,255)
+
+//HEADING: Black color: --
+
+#000000
+#000
+rgb(0,0,0)
+
+Example CSS:
+
+color: #fff;
+background-color: #000;

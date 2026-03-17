@@ -1,0 +1,31 @@
+//TOPIC: Box Model (Margin, Padding, Height, Width, Box Model //! Margin Collapse) --
+
+Margin is the space outside the border of an element.
+
+It creates space between elements.
+
+//HEADING: Margin sides: --
+margin-top
+margin-right
+margin-bottom
+margin-left
+
+//HEADING: Shorthand order: --
+
+Top → Right → Bottom → Left
+
+//HEADING: Examples: --
+
+//LITENOTE: margin:20px;  --
+(all sides)
+
+//LITENOTE: margin:20px 10px; --
+(top-bottom | left-right)
+
+//LITENOTE: margin:20px 10px 5px; --
+(top | left-right | bottom)
+
+//LITENOTE: margin:20px 10px 5px 15px; --
+(top | right | bottom | left)
+
+//IMPORTANT: margin:auto is used to center block elements horizontally. --

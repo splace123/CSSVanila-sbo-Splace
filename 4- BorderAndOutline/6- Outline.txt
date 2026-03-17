@@ -1,0 +1,17 @@
+//TOPIC: Outline in CSS --
+
+outline is used to draw a line outside the border of an element.
+
+//HEADING: Properties: --
+outline-width
+outline-style
+outline-color
+outline-offset
+
+//HEADING: Shorthand: --
+outline: width style color;
+
+//HEADING: Example: --
+outline: 2px solid red;
+
+outline-offset sets distance between element and outline.

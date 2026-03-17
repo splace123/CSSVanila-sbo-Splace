@@ -1,0 +1,32 @@
+//TOPIC: Margin Collapse in CSS --
+
+
+
+
+Margin collapse happens when vertical margins combine.
+
+Only top and bottom margins collapse.
+
+Left and right margins never collapse.
+
+Collapsed margin = larger margin value.
+
+//HEADING: Example: --
+20px + 20px = 20px (not 40px)
+
+//HEADING: To prevent margin collapse: --
+use padding
+use border
+use overflow
+
+//IMPORTANT: Important Rule --
+
+Margin collapse sirf vertical margins mein hota hai.
+
+✔ Top margin
+✔ Bottom margin
+
+❌ Left margin
+❌ Right margin
+
+Left aur right kabhi collapse nahi hote.

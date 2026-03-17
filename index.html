@@ -5,18 +5,68 @@
        div{
   border-width: 4px;
   border-style: solid dotted dashed double;
-  border-color: red yellow green blue;
+  /* border-color: red yellow green blue; */
+  border: 3px dashed blue;
+  width:200px;
+height:100px;
+background: lightblue;
+border: 2px solid black;
+border-radius: 20px;
 } 
+p{
+border:2px solid black;
+outline:3px solid red;
+outline-offset:8px;
+}
+/* .box{
+width:200px;
+height:100px;
+background:lightblue;
+margin:20px auto;
+border:2px solid black;
+} */
+.parent{
+padding:1px;
+background:lightgray;
+}
+
+/* .box{
+margin:20px 0;
+background:lightblue;
+} */
+.box{
+width:200px;
+height: 150px;
+background:lightblue;
+border:2px solid black;
+padding:20px;
+}
     </style>
     <title>Background Practice</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div>
+<!-- <div>
 
     <h1>Welcome Saba 👋</h1>
-    <p>This is background image practice.</p>
-</div>
+    <p>This is background image practice. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, exercitationem.
 
+    </p>
+
+</div>
+<div class="box">
+Centered Box
+</div> -->
+<div class="box">
+    This is padding example
+    </div>
+<div class="box">
+    This is Height  example
+    </div>
+
+<div class="parent">
+
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
 </body>
 </html>

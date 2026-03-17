@@ -1,0 +1,185 @@
+//TOPIC: CSS Variables (Colors through Variables) --
+
+//HEADING: 1. What are CSS Variables? --
+
+CSS Variables are custom values that we store in a variable and reuse many times in CSS.
+
+//HEADING: They help us: --
+
+keep code organized
+
+make design consistent
+
+easily change colors or values
+
+//HEADING: Example: --
+
+Instead of writing the same color many times:
+
+color: red;
+background-color: red;
+border-color: red;
+
+//IMPORTANT: We create a variable: --
+
+--primary-color: red;
+
+Then use it everywhere.
+
+//HEADING: 2. Why CSS Variables are Useful --
+
+Variables make CSS easier to manage.
+
+//HEADING: For example: --
+
+If a website uses one main color, we define it once.
+
+Later if we change the color, we only update the variable.
+
+//HEADING: Example: --
+
+--primary-color: blue;
+
+Now if we change it to:
+
+--primary-color: green;
+
+All elements using that variable will change automatically.
+
+//HEADING: 3. Common Color Scheme in Websites --
+
+Most websites use a color palette (color scheme).
+
+Common variables include:
+
+Variable	Meaning
+//HEADING: Primary Color	
+Main color of the website --
+//HEADING: Secondary Color --
+	Second most used color
+//HEADING: Danger Color --
+	Red color for warnings
+//HEADING: Success Color --
+	Green color for success
+//HEADING: Info Color --
+	Blue color for information
+
+//HEADING: Example: --
+
+primary → main brand color
+secondary → supporting color
+danger → error / delete buttons
+success → success message
+info → information message
+
+//HEADING: 4. Declaring CSS Variables --
+
+Variables are usually declared inside :root selector.
+
+:root represents the top-level element (html).
+
+//IMPORTANT: Syntax --
+:root{
+--variable-name: value;
+}
+
+//IMPORTANT: Important rule: --
+
+Variables start with two hyphens --
+
+//HEADING: 5. Example of CSS Variables --
+:root{
+
+--primary-color: rgb(254,45,23);
+--secondary-color: #f358;
+--danger-color: red;
+--success-color: green;
+--info-color: blue;
+
+}
+
+Now these variables can be used anywhere in CSS.
+
+//HEADING: 6. Using CSS Variables --
+
+To use a variable we use var() function.
+
+//HEADING: Syntax --
+var(--variable-name)
+
+//HEADING: Example: --
+
+body{
+background-color: var(--primary-color);
+color: var(--secondary-color);
+}
+
+//IMPORTANT: Meaning: --
+
+background uses primary color
+
+text uses secondary color
+
+
+
+//HEADING: 6. Fallback Colors --
+
+Sometimes a variable may not be defined or loaded.
+
+In that case we can provide a fallback color.
+
+//HEADING: Syntax --
+var(--variable-name, fallback-color)
+
+//HEADING: Example: --
+
+body{
+background-color: var(--primary-color, red);
+}
+
+//IMPORTANT: Meaning: --
+
+If --primary-color is not found, then red color will be used.
+
+//HEADING: 7. Variables for Other Properties --
+
+CSS variables are not limited to colors.
+
+They can be used for:
+
+margin
+
+padding
+
+font size
+
+spacing
+
+borders
+
+//HEADING: Example: --
+
+:root{
+
+--main-margin:20px;
+--main-padding:15px;
+
+}
+
+.box{
+margin:var(--main-margin);
+padding:var(--main-padding);
+}
+//HEADING: 8. Global Reset Example --
+
+Many developers add a global reset with variables.
+
+Example:
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+//IMPORTANT: This removes default browser spacing. --

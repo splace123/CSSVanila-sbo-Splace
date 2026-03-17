@@ -1,0 +1,37 @@
+//TOPIC: Box Model In CSs --
+
+//HEADING:  Box Model Diagram -- --
+
++---------------------------+
+|         Margin            |
+|   +-------------------+   |
+|   |      Border       |   |
+|   |  +-------------+  |   |
+|   |  |   Padding   |  |   |
+|   |  |  +-------+  |  |   |
+|   |  |  |Content|  |  |   |
+|   |  |  +-------+  |  |   |
+|   |  +-------------+  |   |
+|   +-------------------+   |
++---------------------------+
+
+
+CSS Box Model describes the layout of elements.
+
+//HEADING: Every element consists of: --
+
+Content
+Padding
+Border
+Margin
+
+Content = actual data
+Padding = space between content and border
+Border = line around padding
+Margin = space outside border
+
+//HEADING: Total width calculation: --
+width + padding + border + margin
+
+//HEADING: box-sizing:border-box --
+includes padding and border inside width and height.

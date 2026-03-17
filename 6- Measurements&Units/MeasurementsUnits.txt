@@ -1,0 +1,31 @@
+//TOPIC: Measurements Units  --
+
+
+CSS measurement units define size of elements.
+
+//HEADING: Two types of units: --
+
+//HEADING: Absolute Units --
+3. Absolute Units
+
+Absolute units are fixed units.
+Their size does not change with screen size.
+In web design, px (pixel) is mostly used.
+px, cm, mm, in, pt, pc
+
+//HEADING: Relative Units --
+Relative units are flexible and responsive.
+Their size depends on screen size or parent element.
+%, em, rem, vw, vh, vmin, vmax
+
+px = fixed size
+
+% = relative to parent element
+
+em = relative to parent font size
+
+rem = relative to root element font size
+
+vw = viewport width percentage
+
+vh = viewport height percentage

@@ -1,0 +1,23 @@
+
+//TOPIC: Width Property in CSS --
+
+Width sets the horizontal size of an element.
+
+//HEADING: Syntax: --
+width:200px;
+
+Min-width sets the minimum width of an element.
+//HEADING: Example: --
+min-width:100px;
+
+Max-width sets the maximum width of an element.
+//HEADING: Example: --
+max-width:500px;
+
+//HEADING: Units: --
+px
+em
+rem
+%
+
+These properties are useful for responsive design.
